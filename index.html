@@ -29,7 +29,16 @@
 <!-- ChatBot -->
 
 <div>
-    <div id="chatContainer" class="chat-container"></div>
+    <div id="chatContainer" class="chat-container">
+        <div id="userChatBox" class="user-chatBox">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ltosubBc1ICa91UJmsQVj3ZltDzeBnp2Eg&usqp=CAU" alt="" width="130px" height="100px">
+            <p id="userChatList"></p>
+        </div>
+        <div id="botChatBox" class="bot-chatBox">
+            <p id="botChatList"></p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7bH1JX1bUsZj3I6v9OpvCMhfX85IHOJSeXA&usqp=CAU" alt="" width="150px" height="100px">
+        </div>
+    </div>
     <input type="text" id="userInput" class="user-input" placeholder="Type a message...">
     <button id="sendBtn">Send</button>
 </div>
