@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Local Storage Task</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
     <center>
-    <!-- <div>
-        <input type="text" id="userInput" placeholder="Type something...">
-    <button id="saveBtn">Save</button>
-    <button id="clearBtn">Clear</button>
-    </div> -->
+        <!-- Remove Item in Local Storage Practice -->
+    <div class="removeItemContainer">
+       <div class="removeItem">
+        <input type="text" id="userInput" class="userInput" placeholder="Type something...">
+        <button id="saveBtn">Save</button>
+        <button id="clearBtn">Clear</button>
+       </div>
+       <p>Click on clear to remove the text in the HTML input element.</p>
+    </div>
 <hr>
 
 <!-- Local Storage Practice  -->
 
-<!-- <div>
-    <textarea id="msg" placeholder="Type your message..."></textarea>
+<!-- <div class="localStoragePractice">
+    <textarea id="msg" class="msg" placeholder="Type your message..."></textarea>
     <br>
     <button id="saveBtn">Save</button>
     <button id="clearBtn">Clear</button>
@@ -28,7 +33,7 @@
 
 <!-- ChatBot -->
 
-<div>
+<!-- <div>
     <div id="chatContainer" class="chat-container">
         <div id="userChatBox" class="user-chatBox">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ltosubBc1ICa91UJmsQVj3ZltDzeBnp2Eg&usqp=CAU" alt="" width="130px" height="100px">
@@ -40,8 +45,23 @@
         </div>
     </div>
     <input type="text" id="userInput" class="user-input" placeholder="Type a message...">
-    <button id="sendBtn">Send</button>
-</div>
+    <button id="sendBtn" class="sendBtn"><i class="ri-telegram-fill"></i></button>
+</div> -->
+
+<!-- Word Cloud  -->
+
+<!-- <div class="word-cloud-container">
+    <h1>Word Cloud</h1>
+    <div class="row" id="wordsContainer">
+    </div>
+    <div class="pDiv">
+        <p class="error-msg" id="errorMsg"></p>
+    </div>
+    <div class="wordInput">
+    <input type="text" id="userInput" class="userInput">
+    <button class="add-btn" id="addBtn">Add</button>
+    </div>
+</div> -->
 </center>
     <script src="./index.js"></script>
 </body>
